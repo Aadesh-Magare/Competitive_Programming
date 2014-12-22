@@ -1,0 +1,26 @@
+no of ways of choosing r objects from n when repetition is allowed
+
+	(n+r-1)C(r)
+
+no of ways of choosing r objects from n when repetition is now allowed
+
+	nCr
+
+nCr = n!/ ((n-r)! * r!)
+
+nCr = n * n-1 * n-2... n-r+1 / 1 * 2 * 3 * 4..r
+
+nCr = (n-1)C(r-1) + (n-1)cr //useful for building tables using DP
+
+nCr = nC(n-r)
+
+no of permutations of n objets: n!
+
+no of circular permutations of n objects : (n-1)!
+
+no of permutations of r objecs taken from n objects
+nPr = n!/ (n-r)!
+
+nPn = n!
+
+
