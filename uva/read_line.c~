@@ -1,8 +1,0 @@
-char *readline() {
-	int count = 0;
-	char ch;
-	while(count < len && (ch = getchar()) != EOF && ch != '\n')
-		string[count++] = ch;
-	string[count] = '\0';
-	return count;
-}
